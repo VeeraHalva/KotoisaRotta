@@ -30,7 +30,7 @@ header h1 {
 
 nav {
     display: flex;
-    align-items: center;
+    flex-direction: row;
     gap: 20px;
 }
 
@@ -48,7 +48,7 @@ nav a {
 }
 
 nav a.active {
-    background-color: #6b4534;
+    background-color: #87906f;
     color: white;
 }
 
