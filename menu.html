@@ -3,18 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>KotoisaRotta</title>
 </head>
 <link rel="stylesheet" href="css/style.css">
 <body>
     <header>
-        <h1>Kotoisa Rotta</h1>
+
+    <!-- Logo ja kahvilan nimi tulevat tässä. Näyttää hyvältä mutta ei varmasti paras tapa toteuttaa -->
+        <div class="logo-alue">
+            <img src="kuvat/Logo.png" alt="Kotoisa Rotta Logo">
+            <div class="logo-teksti"> 
+                <h1>Kotoisa Rotta</h1>
+
+                <div class="kahvila-rivi"> 
+                    <span>KAHVILA</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- class="active" Tarkoitus on että se näyttää aktiiviselta eli valitulta sivulta! -->
         <nav>
            <a href="index.html">Etusivu</a>
             <a class="active" href="menu.html">Menu</a>
             <a href="yhteystiedot.html">Yhteystiedot</a>
         </nav>
     </header>
+    
+    <footer>
+        <h3>Aukioloajat</h3>
+        <ol>
+            <li>Maanantai: Suljettu</li>
+            <li>Tiistai: 07:00 - 20:00</li>
+            <li>Keskiviikko: 07:00 - 20:00</li>
+            <li>Torstai: 07:00 - 20:00</li>
+            <li>Perjantai: 07:00 - 20:00</li>
+            <li>Lauantai: 12:00 - 18:00</li>
+            <li>Sunnuntai: 12:00 - 18:00</li>
+        </ol>
+    </footer>
+
     
 </body>
 </html>
