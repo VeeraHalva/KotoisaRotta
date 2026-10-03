@@ -212,6 +212,19 @@ footer h3 {
     color: #f6ead2; 
 }
 
+/* Footterissa olevat aukiolojat */
+footer ol { 
+    list-style: none; 
+    padding-left: 0; 
+}
+
+footer li { 
+    margin-bottom: 10px; 
+    display: grid; 
+    grid-template-columns: 100px 1fr; 
+    gap: 5px; 
+}
+
 img {
     max-width: 100%;
     height: auto;
