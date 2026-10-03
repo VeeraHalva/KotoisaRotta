@@ -15,6 +15,8 @@ body {
     color: #222;
 }
 
+/* Header */
+
 header {
     background-color: #f6ead2;
     padding: 20px 40px;
@@ -26,10 +28,22 @@ header {
 
 header h1 {
     margin: 0;
-    color: #6b4534;
+    color: #512d25;
     font-family: georgia, "times new roman", serif;   
     font-size: 32px;
 }
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.logo-alue img {
+    width: 100%;
+    height: auto;
+}
+
 
 \* Nettisivun navigaatio \*
 
@@ -46,7 +60,7 @@ nav a {
     justify-content: center;
     text-decoration: none;
     font-weight: bold;
-    color: #3f2b23;
+    color: #512d25;
     padding: 10px 20px;
     border-radius: 25px;
 
@@ -54,9 +68,10 @@ nav a {
 
 nav a.active {
     background-color: #87906f;
-    color: white;
+    color: #f6ead2;
 }
 
+/*Sectionit*/
 
 section {
     background-color: #fffaf2;
@@ -118,14 +133,16 @@ li {
     margin-bottom: 5px;
 }
 
+/* Footer */
+
 footer {
     background-color: #87906f;
-    color: white;
+    color: #f6ead2;
     padding: 40px;
     margin-top: 40px;
 
 }
 
 footer h3 {
-    color: white;
+    color: #f6ead2;
 }
