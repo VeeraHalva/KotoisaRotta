@@ -146,7 +146,61 @@ section {
 
 
 /* Etusivu */ 
- 
+
+/* Esittelyalue */
+
+.esittely {
+    position: relative;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    padding: 0;
+    border: none;
+    border-radius: 0 0 70px 70px;
+    overflow: hidden;
+}
+
+/* Esittelyalueen kuva */
+
+.esittely img {
+    display: block;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+/* Kuvan päälle tuleva teksti */
+.esittely-teksti {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+
+    max-width: 500px;
+    padding: 25px;
+
+    background-color: rgba(50, 35, 25, 0.75);
+    color: #fffaf2;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* Esittelyalueen teksti otsikko */
+.esittely-teksti h2 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.esittely-teksti h3 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Esittelyalueen teksti kappale */
+.esittely-teksti p {
+    margin-bottom: 10px;
+}
+
 /* Menu-linkki */
 
 .esittely-teksti a {
@@ -157,6 +211,7 @@ section {
     background-color: #87906f;
     color: white;
     text-decoration: none;
+    font-weight: bold;
     border-radius: 25px;
 }
 
