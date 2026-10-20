@@ -290,21 +290,20 @@ section {
 .tuotekortit {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: max(250px, calc((100% - 60px) / 4));
+    grid-auto-columns: minmax(260px, 1fr);
     gap: 20px;
+
     overflow-x: auto;
-    scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
-    scrollbar-width: none;
+    scroll-behavior: smooth;
+
+    padding-bottom: 10px;
 }
 
-.tuotekortit::-webkit-scrollbar {
-    display: none;
-}
-
-.tuotekortit .tuotekortti {
+.tuotekortti {
     scroll-snap-align: start;
-}
+};
+
 
 /* Tuotekortit */
 .tuotekortti {
@@ -387,3 +386,4 @@ img {
     max-width: 100%;
     height: auto;
 }
+
