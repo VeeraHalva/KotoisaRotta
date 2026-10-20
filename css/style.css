@@ -199,7 +199,17 @@ section {
 .esittely-teksti h3 {
     color: #fffaf2;
     font-size: 26px;
-    margin-bottom: 15px;
+    letter-spacing: 15px;
+}
+/* Esittelyalueen teksti otsikon jälkeinen viiva*/
+.esittely-teksti h3 ::after{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background-color: #fffaf2;
+    margin-left: 15px;
+    vertical-align: middle;
 }
 
 /* Esittelyalueen teksti kappale */
@@ -248,8 +258,17 @@ section {
 
 .suosikki-otsikko h3 {
     font-size: 14px;
-    color: #93684f;
     letter-spacing: 3px;
+}
+
+.suosikki-otsikko h3::after {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+    background-color: #93684f;
+    margin-left: 15px;
+    vertical-align: middle;
 }
 
 .suosikki-otsikko p {
@@ -257,8 +276,35 @@ section {
 }
 
 /* Tuotekorttien grid */
+.tuotekortit {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
 
+/* Tuotekortit */
+.tuotekortti {
+    background-color: #fffaf2;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 15px;
+}
 
+.tuotekortti img {
+    display: block;
+    width: 100%;
+    height: 130px;
+    object-fit: contain;
+}
+
+.tuotekortti h3 {
+    font-size: 22px;
+    margin: 10px;
+}
+
+.tuotekortti p {
+    font-size: 16px;
+}
 
 
 /* Menu */ 
