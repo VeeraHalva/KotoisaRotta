@@ -156,40 +156,44 @@ section {
     border: none;
     border-radius: 0 0 70px 70px;
     overflow: hidden;
+
+    min-height: 450px;
+    display: flex;
 }
 
 /* Esittelyalueen kuva */
 
 .esittely img {
+    position: absolute;
     display: block;
     width: 100%;
-    height: 450px;
+    height: 100%;
+    top: 0;
+    left: 0;
     object-fit: cover;
 }
 
 /* Kuvan päälle tuleva teksti */
+
 .esittely-teksti {
-    position: absolute;
-    top: 0;
-    left: 0;
-    
+    position: relative;
+    z-index: 1;
 
     width: 100%;
-    height: 100%;
     max-width: 650px;
-    
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 
-    padding: 30px 40px;
+    padding: 40px;
 
     background-color: rgba(40, 25, 15, 0.35);
     color: #fffaf2;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
 }
+
 
 /* Esittelyalueen teksti otsikko */
 .esittely-teksti h2 {
@@ -304,7 +308,7 @@ section {
 
 .tuotekortti {
     scroll-snap-align: start;
-};
+}
 
 
 /* Tuotekortit */
