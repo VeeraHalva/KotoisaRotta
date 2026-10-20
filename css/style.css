@@ -39,8 +39,7 @@ h3
  
 header { 
     background-color: #f6ead2; 
-    padding: 20px 40px; 
-    border-bottom: 1px solid #dcc0a4; 
+    padding: 20px 40px 0; 
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
@@ -171,15 +170,23 @@ section {
 /* Kuvan päälle tuleva teksti */
 .esittely-teksti {
     position: absolute;
-    top: 50%;
-    left: 5%;
-    transform: translateY(-50%);
+    top: 0;
+    left: 0;
+    
 
-    max-width: 500px;
-    padding: 25px;
+    width: 55%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 
+    padding: 40px 60px;
+
+    background-color: rgba(40, 25, 15, 0.35);
     color: #fffaf2;
-    text-shadow: 1px 1px 2px #000;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
 }
 
 /* Esittelyalueen teksti otsikko */
@@ -191,7 +198,7 @@ section {
 
 .esittely-teksti h3 {
     color: #fffaf2;
-    font-size: 18px;
+    font-size: 26px;
     margin-bottom: 15px;
 }
 
