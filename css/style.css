@@ -147,11 +147,27 @@ section {
 
 /* Etusivu */ 
  
-.tarjoukset { 
-    background-color: #fffaf2; 
-    padding: 20px; 
-    margin-bottom: 20px; 
-} 
+/* Menu-linkki */
+
+.esittely-teksti a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+
+    background-color: #87906f;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+/* Tarjoukset */
+
+.tarjoukset {
+    background-color: #fffaf2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
  
 /* Menu */ 
 
