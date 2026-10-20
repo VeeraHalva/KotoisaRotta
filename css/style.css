@@ -222,15 +222,45 @@ section {
     border-radius: 25px;
 }
 
-/* Tarjoukset */
 
-.tarjoukset {
-    background-color: #fffaf2;
-    padding: 20px;
-    margin-bottom: 20px;
+/* Tuotekortit */
+
+/*suosikit-osio*/
+.suosikit {
+    background-color: #f6ead2;
+    padding: 40px;
+    border: none;
 }
 
- 
+/*otsikot ja muut tekstit*/
+.suosikki-otsikko {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.suosikki-otsikko h2 {
+    font-size: 36px;
+    
+}
+
+.suosikki-otsikko h3 {
+    font-size: 14px;
+    color: #93684f;
+    letter-spacing: 3px;
+}
+
+.suosikki-otsikko p {
+    font-size: 16px;
+}
+
+/* Tuotekorttien grid */
+
+
+
+
 /* Menu */ 
 
 
@@ -244,7 +274,7 @@ footer {
     background-color: #87906f; 
     color: #f6ead2; 
     padding: 40px; 
-    margin-top: 40px; 
+    margin-top: 0; 
  
 } 
  
