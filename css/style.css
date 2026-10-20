@@ -296,24 +296,44 @@ section {
 .tuotekortit {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: minmax(260px, 1fr);
+    grid-auto-columns: max(260px, calc((100% - 60px) / 4));
     gap: 20px;
 
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
 
-    padding-bottom: 10px;
+    padding-bottom: 12px;
+
+    scrollbar-width: thin;
+    scrollbar-color: #87906f #f6ead2;
 }
 
-.tuotekortti {
-    scroll-snap-align: start;
+/* Vierityspalkin ulkoasu */
+
+.tuotekortit::-webkit-scrollbar {
+    height: 6px;
+}
+
+.tuotekortit::-webkit-scrollbar-track {
+    background-color: #f6ead2;
+}
+
+.tuotekortit::-webkit-scrollbar-thumb {
+    background-color: #87906f;
+    border-radius: 10px;
+}
+
+.tuotekortit::-webkit-scrollbar-thumb:hover {
+    background-color: #6b4534;
 }
 
 
 /* Tuotekortit */
 .tuotekortti {
 
+    display: flex;
+    flex-direction: column;
     background-color: transparent;
     border-radius: 15px;
     overflow: hidden;
@@ -336,6 +356,7 @@ section {
     padding: 18px;
     min-height: 150px;
     border-radius: 0 0 15px 15px;
+    flex: 1;
 }
 
 .tuotekortti h3 {
