@@ -199,10 +199,10 @@ section {
 .esittely-teksti h3 {
     color: #fffaf2;
     font-size: 26px;
-    letter-spacing: 15px;
+    letter-spacing: 2px;
 }
 /* Esittelyalueen teksti otsikon jälkeinen viiva*/
-.esittely-teksti h3 ::after{
+.esittely-teksti h3::after{
     content: "";
     display: inline-block;
     width: 50px;
@@ -214,7 +214,7 @@ section {
 
 /* Esittelyalueen teksti kappale */
 .esittely-teksti p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
     margin-bottom: 15px;
 }
