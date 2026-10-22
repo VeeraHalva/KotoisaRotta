@@ -432,6 +432,17 @@ section {
     margin-bottom: 25px;
 }
 
+/* Menu-otsikoideen viiva */
+.menu-osio h2::after {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 1.5px;
+    background-color: #b7926d;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
 /* tuotteiden grid */
 
 .menu-tuotteet {
