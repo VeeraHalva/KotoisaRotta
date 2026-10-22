@@ -11,7 +11,9 @@ body {
     line-height: 1.5; 
     background-color: #f6ead2; 
     color: #512d25; 
+
 } 
+
 
 
 /* tekstit */
@@ -146,8 +148,7 @@ section {
 
 .esittely {
     position: relative;
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
+    width: 100%;
     padding: 0;
     border: none;
     border-radius: 0 0 70px 70px;
@@ -369,7 +370,68 @@ section {
 
 
 /* Menu */ 
+/*Tekstit menu sivulla*/
 
+.menu-esittely h3 {
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #b7926d;
+}
+
+.menu.esittely h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.menu-esittely p {
+    font-size: 18px;
+}
+
+/* Tuotekategoriat */
+
+.menu-kategoriat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.menu-kategoriat a {
+    
+    background-color: #87906f;
+    color: #fffaf2;
+   
+}
+
+/* yksittäinen tuoteryhmä */
+
+.menu-osio {
+    background-color: #f6ead2;
+    border: none;
+}
+
+menu-osio h2 {
+    margin-bottom: 25px;
+}
+
+/* tuotteiden grid */
+
+.menu-tuotteet {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: max(260px, calc((100% - 60px) / 4));
+    gap: 20px;
+
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+
+    padding-bottom: 12px;
+
+    scrollbar-width: thin;
+    scrollbar-color: #87906f #f6ead2;
+}
 
 /* Yhteystiedot */ 
 
