@@ -128,10 +128,9 @@ nav a.active {
  
 main { 
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto; 
-    padding: clamp(15px, 2vw, 30px); 
-} 
+    margin: 0; 
+    padding:0;
+}
  
 section { 
     background-color: #fffaf2; 
@@ -156,6 +155,8 @@ section {
 
     min-height: 450px;
     display: flex;
+
+    margin-top: 8px;
 }
 
 /* Esittelyalueen kuva */
@@ -370,6 +371,22 @@ section {
 
 
 /* Menu */ 
+
+.menu-sisalto {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.menu-esittely {
+    text-align: center;
+    background-color: #f6ead2;
+    border: none;
+}
+    
+
+
 /*Tekstit menu sivulla*/
 
 .menu-esittely h3 {
@@ -378,7 +395,7 @@ section {
     color: #b7926d;
 }
 
-.menu.esittely h2 {
+.menu-esittely h2 {
     font-size: 40px;
     margin-bottom: 10px;
 }
@@ -411,7 +428,7 @@ section {
     border: none;
 }
 
-menu-osio h2 {
+.menu-osio h2 {
     margin-bottom: 25px;
 }
 
@@ -420,7 +437,7 @@ menu-osio h2 {
 .menu-tuotteet {
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: max(260px, calc((100% - 60px) / 4));
+    grid-auto-columns: max(260px, calc((100% - 60px) / 4));
     gap: 20px;
 
     overflow-x: auto;
