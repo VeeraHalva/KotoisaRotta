@@ -463,6 +463,110 @@ section {
 
 /* Yhteystiedot */ 
 
+/* yhteystiedot sisältö */
+.yhteystiedot-sisalto {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/*Sivu esittely */
+.yhteystiedot-esittely {
+    text-align: center;
+    background-color: #f6ead2;
+    border: none;
+}
+
+/* Tekstit yhteystiedot sivulla */
+.yhteystiedot-esittely h3 {
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #b7926d;
+}
+
+.yhteystiedot-esittely h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.yhteystiedot-esittely p {
+    font-size: 18px;
+}
+
+/*laatikkojen grid */
+.yhteystiedot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    
+    background-color: #f6ead2;
+    border: none;
+    padding: 0;
+}
+
+/*Laatikot oikealla*/
+.yhteystiedot-laatikko {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Yhteystiedot laatikot */
+
+.yhteystiedot-laatikko {
+    background-color: #fffaf2;
+    border: 1px solid #dcc0a4;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+yhteystiedot-laatikko h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+yhteystiedot-laatikko p {
+    font-size: 16px;
+    line-height: 15px;
+}
+
+/*Lomake*/
+.lomake-paikka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 280px;
+    padding: 20px;
+
+    background-color: #f6ead2;
+    border: 1px solid #dcc0a4;
+    border-radius: 15px;
+}
+
+.lomake-paikka p{
+    text-align: center;
+    margin: 0;
+    color:#93684f
+}
+
+/* Aukioloajat */
+
+.aukioloajat {
+   list-style: none;
+}
+
+.aukioloajat li {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.yhteystiedot-esittely li span:last-child {
+    text-align: right;
+}
 
 /* Footer */ 
  
