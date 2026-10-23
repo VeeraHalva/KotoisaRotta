@@ -354,6 +354,16 @@ section {
     min-height: 150px;
     border-radius: 0 0 15px 15px;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/*tuoteekortin hinnat*/
+.hinta {
+    display: block;
+    margin-top: auto;
+    text-align: right;
+    font-weight: bold;
 }
 
 .tuotekortti h3 {
@@ -506,11 +516,12 @@ section {
 }
 
 /*Laatikot oikealla*/
-.yhteystiedot-laatikko {
+.yhteystiedot-oikea {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
+
 
 /* Yhteystiedot laatikot */
 
@@ -521,12 +532,12 @@ section {
     padding: 20px;
 }
 
-yhteystiedot-laatikko h3 {
+.yhteystiedot-laatikko h3 {
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-yhteystiedot-laatikko p {
+.yhteystiedot-laatikko p {
     font-size: 16px;
     line-height: 15px;
 }
@@ -538,6 +549,7 @@ yhteystiedot-laatikko p {
     align-items: center;
     
     min-height: 280px;
+    margin-top: 20px;
     padding: 20px;
 
     background-color: #f6ead2;
@@ -547,11 +559,28 @@ yhteystiedot-laatikko p {
 
 .lomake-paikka p{
     text-align: center;
-    margin: 0;
     color:#93684f
 }
 
+/*lomakeen laatikko*/
+.lomake-laatikko {
+    background-color: #fffaf2;
+    border: 1px solid #dcc0a4;
+    border-radius: 15px;
+    padding: 20px;
+}
+.lomake-laatikko h3 {
+    margin-bottom: 15px;
+}
+
 /* Aukioloajat */
+
+.aukioloajat-laatikko {
+    background-color: #fffaf2;
+    border: 1px solid #dcc0a4;
+    border-radius: 15px;
+    padding: 20px;
+}
 
 .aukioloajat {
    list-style: none;
