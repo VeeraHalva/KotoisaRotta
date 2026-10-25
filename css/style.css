@@ -512,16 +512,25 @@ Yhteystiedot
     font-size: 18px;
 }
 
-/*laatikkojen grid */
-.yhteystiedot-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+/* Yhteystietojen pääasettelu Flexboxilla */
+.yhteystiedot-flex {
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
-    
+
     background-color: #f6ead2;
     border: none;
     padding: 0;
 }
+
+/* Vasemman ja oikean sisältöalueen leveydet */
+
+.lomake-laatikko,
+.yhteystiedot-oikea {
+    flex: 1;
+    min-width: 250px;
+}
+
 
 /*Laatikot oikealla*/
 .yhteystiedot-oikea {
