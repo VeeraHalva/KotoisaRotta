@@ -47,14 +47,57 @@
     <section class="yhteystiedot-flex">
 
        
-        <!---Tähän lisätään lomake myöhemmin--->
+        <!---Yhteydenottolomake--->
         <article class="lomake-laatikko">
             <h3>Yhteydenottolomake</h3>
-             <p>Tähän lisätään myöhemmin yhteydenottolomake.</p>
+             <p>Onko sinulla kysyttävää tai haluatko tehdä varauksen? Lähetä meille viesti!</p>
+            
+            
+             <!---Lomakkeen alku--->
+            <form>
+                <fieldset>
+                    <legend>Lomakkeen tiedot</legend>
 
-            <div class="lomake-paikka">
-             <p>Tähän tulee yhteydenottolomake</p>
-            </div>
+                    <!---Nimi--->
+                    <div class="kentta">
+                        <label for="nimi">Nimi:<span class="pakollinen">*</span></label>
+                        <input type="text" id="nimi" name="nimi" required>
+                    </div>
+
+                    <!---Sähköposti--->
+                    <div class="kentta">
+                        <label for="sahkoposti">Sähköposti:<span class="pakollinen">*</span></label>
+                        <input type="email" id="sahkoposti" name="sahkoposti" required>
+                    </div>
+
+                    <!---Viestin aihe--->
+                    <div class="kentta">
+                        <label for="aihe">Viestin aihe:</label>
+                        <select id="aihe" name="aihe">
+                            <option value="kysymys">Kysymys</option>
+                            <option value="varaus">Varaus</option>
+                            <option value="palaute">Palaute</option>
+                        </select>
+                    </div>
+
+                    <!---Viesti--->
+                
+                    <div class="kentta">
+                        <label for="viesti">Viesti:<span class="pakollinen">*</span></label>
+                        <textarea id="viesti" name="viesti" rows="5" required></textarea>
+                    </div>
+
+                    <!---Painikkeet--->
+                    <div class="painikkeet">
+                        <button type="submit">Lähetä</button>
+                        <button type="reset">Tyhjennä</button>
+                    </div>
+                </fieldset>
+
+           
+           
+
+
         </article>
 
         <!---Yhteystiedot oikealle--->
