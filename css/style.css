@@ -505,6 +505,11 @@ Menu
     align-items: center;
     gap: 10px;
     margin-left: auto;
+
+    background-color: #fffaf2;
+    padding: 8px 12px;
+    border: 1px solid #dcc0a4;
+    border-radius: 15px;
 }
 
 .menu-aanite span {
@@ -512,10 +517,11 @@ Menu
     font-weight: bold;
     color: #512d25;
     white-space: nowrap;
+    margin-bottom: 0px;
 }
 
 .menu-aanite audio {
-    width: 220px;
+    width: 200px;
     height: 35px;
 }
 
