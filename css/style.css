@@ -471,7 +471,7 @@ Menu
 .menu-tuotteet {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: max(20px, calc((100% - 60px) / 4));
+    grid-auto-columns: max(200px, calc((100% - 60px) / 4));
     gap: 20px;
 
     overflow-x: auto;
