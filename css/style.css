@@ -483,6 +483,31 @@ Menu
     scrollbar-width: thin;
     scrollbar-color: #87906f #f6ead2;
 }
+
+/* Menu äänitteet */
+
+.Menu-äänite {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.menu-äänite p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #54362e;
+    white-space: nowrap;
+}
+
+.menu-äänite audio {
+    width: 220px;
+    height: 35px;
+}
+
+
+
+
 /*----------------------------------------------------------------
 Yhteystiedot
 ----------------------------------------------------------------*/
