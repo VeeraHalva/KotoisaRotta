@@ -486,25 +486,36 @@ Menu
 
 /* Menu äänitteet */
 
-.Menu-äänite {
+.menu-otsikko {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.menu-otsikko h2 {
+    margin: 0;
+    white-space: nowrap;
+}
+
+.menu-aanite {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-left: auto;
 }
 
-.menu-äänite p {
+.menu-aanite span {
     font-size: 16px;
     font-weight: bold;
-    color: #54362e;
+    color: #512d25;
     white-space: nowrap;
 }
 
-.menu-äänite audio {
+.menu-aanite audio {
     width: 220px;
     height: 35px;
 }
-
 
 
 
