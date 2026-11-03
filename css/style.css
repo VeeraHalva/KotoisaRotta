@@ -416,6 +416,7 @@ Menu
     font-size: 16px;
     letter-spacing: 3px;
     color: #b7926d;
+    margin-bottom: 10px;
 }
 
 .menu-esittely h2 {
@@ -423,9 +424,22 @@ Menu
     margin-bottom: 10px;
 }
 
+/* Menu-pääotsikon viiva */
+.menu-esittely h2::after {
+    content: "";
+    display: block;
+    width: 75px;
+    height: 2px;
+    background-color: #b7926d;
+    margin: 0 auto 15px;
+}
+
 .menu-esittely p {
     font-size: 18px;
 }
+
+
+
 
 /* Tuotekategoriat */
 
@@ -434,7 +448,7 @@ Menu
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .menu-kategoriat a {
@@ -455,7 +469,7 @@ Menu
     margin-bottom: 25px;
 }
 
-/* Menu-otsikoideen viiva */
+/* Menu-otsikoiden viiva */
 .menu-osio h2::after {
     content: "";
     display: inline-block;
@@ -553,9 +567,20 @@ Yhteystiedot
     color: #b7926d;
 }
 
+
 .yhteystiedot-esittely h2 {
     font-size: 40px;
     margin-bottom: 10px;
+}
+
+/* Yhteystiedot-otsikon viiva */
+.yhteystiedot-esittely h2::after {
+    content: "";
+    display: block;
+    width: 75px;
+    height: 2px;
+    background-color: #b7926d;
+    margin: 0 auto 15px;
 }
 
 .yhteystiedot-esittely p {
@@ -610,24 +635,7 @@ Yhteystiedot
 }
 
 /*Lomake*/
-.lomake-paikka {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    min-height: 280px;
-    margin-top: 20px;
-    padding: 20px;
 
-    background-color: #f6ead2;
-    border: 1px solid #dcc0a4;
-    border-radius: 15px;
-}
-
-.lomake-paikka p{
-    text-align: center;
-    color:#93684f
-}
 
 /*lomakeen laatikko*/
 .lomake-laatikko {
@@ -639,6 +647,97 @@ Yhteystiedot
 .lomake-laatikko h3 {
     margin-bottom: 15px;
 }
+
+/*Lomakkeen sijainti laatikon sisällä*/
+.lomake-laatikko form {
+    margin-top: 20px;
+}
+
+/*Lomakkeen kenttäryhmä*/
+.lomake-laatikko fieldset {
+    background-color: #f6ead2;
+    border: 1px solid #dcc0a4;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+/*kenttäryhmän otsikko*/
+.lomake-laatikko legend {
+    font-weight: bold;
+    color: #512d25;
+    padding: 0 8px;
+}
+
+/*Lomakkeen yksittäiet kentät*/
+.kentta {
+    margin-bottom: 15px;
+}
+
+/*Kentän nimi testikentän yläpuolella*/
+.kentta label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/*tekstikeenttien ulokoasu*/
+.lomake-laatikko input,
+.lomake-laatikko select,
+.lomake-laatikko textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+
+    background-color: #fffaf2;
+    border: 1px solid #dcc0a4;
+    border-radius: 8px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/*pakollisen kentän tähti */
+.pakollinen {
+    color: red;
+}
+
+/*Painikkeiden aseteelu*/
+.painike {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+} 
+
+/*lähetä painike*/
+.lomake-laatikko button {
+    padding: 10px 18px;
+    background-color: #87906f;
+    color: #fffaf2;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*Painike hiiren olleessa sen päällä*/
+
+.lomake-laatikko button:hover {
+    background-color: #6b4534;
+}
+
+/*Tyhjennä painike*/
+.lomake-laatikko .tyhjenna {
+    background-color: #fffaf2;
+    color: #512d25;
+    border: 1px solid #87906f;
+}
+
+.lomake-laatikko .tyhjenna:hover {
+    background-color: #87906f;
+    color: #fffaf2;
+   
+}
+
 
 /* Aukioloajat */
 
