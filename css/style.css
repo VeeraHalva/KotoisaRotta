@@ -702,7 +702,7 @@ Yhteystiedot
 }
 
 /*Painikkeiden aseteelu*/
-.painike {
+.painikkeet {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
