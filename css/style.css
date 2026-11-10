@@ -425,6 +425,15 @@ Menu
 
 /*Tekstit menu sivulla*/
 
+
+.menu-esittely .koristeteksti {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #79553b;
+}
+
 .menu-esittely h3 {
     font-size: 16px;
     letter-spacing: 3px;
@@ -574,8 +583,12 @@ Yhteystiedot
 }
 
 /* Tekstit yhteystiedot sivulla */
-.yhteystiedot-esittely h3 {
+
+/* Yhteystiedot-sivun koristeellinen teksti */
+.yhteystiedot-esittely .koristeteksti {
+    font-family: Georgia, "Times New Roman", serif;
     font-size: 16px;
+    font-weight: bold;
     letter-spacing: 3px;
     color: #79553b;
 }
@@ -711,7 +724,7 @@ Yhteystiedot
 
 /*pakollisen kentän tähti */
 .pakollinen {
-    color: red;
+    color: #a11c24;
 }
 
 /*Painikkeiden aseteelu*/
