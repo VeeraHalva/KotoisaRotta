@@ -129,7 +129,7 @@ nav a {
 } 
  
 nav a.active { 
-    background-color: #87906f; 
+    background-color: #5d674b; 
     color: #f6ead2; 
 } 
 
@@ -256,7 +256,7 @@ Etusivu
     margin-top: 20px;
     padding: 10px 20px;
 
-    background-color: #87906f;
+    background-color: #5d674b;
     color: #fffaf2;
     text-decoration: none;
     border-radius: 25px;
@@ -289,7 +289,7 @@ Etusivu
 .suosikki-otsikko h3 {
     font-size: 14px;
     letter-spacing: 3px;
-    color: #b7926d;
+    color:#79553b;
 }
 
 .suosikki-otsikko h3::after {
@@ -297,7 +297,7 @@ Etusivu
     display: inline-block;
     width: 50px;
     height: 1.5px;
-    background-color: #b7926d;
+    background-color: #79553b;
     margin-left: 15px;
     vertical-align: middle;
 }
@@ -328,7 +328,7 @@ Etusivu
     padding-bottom: 12px;
 
     scrollbar-width: thin;
-    scrollbar-color: #87906f #f6ead2;
+    scrollbar-color: #5d674b #f6ead2;
 }
 
 /* Vierityspalkin ulkoasu */
@@ -342,7 +342,7 @@ Etusivu
 }
 
 .tuotekortit::-webkit-scrollbar-thumb {
-    background-color: #87906f;
+    background-color: #5d674b;
     border-radius: 10px;
 }
 
@@ -428,7 +428,7 @@ Menu
 .menu-esittely h3 {
     font-size: 16px;
     letter-spacing: 3px;
-    color: #b7926d;
+    color: #79553b;
     margin-bottom: 10px;
 }
 
@@ -443,7 +443,7 @@ Menu
     display: block;
     width: 75px;
     height: 2px;
-    background-color: #b7926d;
+    background-color: #79553b;
     margin: 0 auto 15px;
 }
 
@@ -466,7 +466,7 @@ Menu
 
 .menu-kategoriat a {
     
-    background-color: #87906f;
+    background-color: #5d674b;
     color: #fffaf2;
    
 }
@@ -488,7 +488,7 @@ Menu
     display: inline-block;
     width: 50px;
     height: 1.5px;
-    background-color: #b7926d;
+    background-color: #79553b;
     margin-left: 15px;
     vertical-align: middle;
 }
@@ -508,7 +508,7 @@ Menu
     padding-bottom: 12px;
 
     scrollbar-width: thin;
-    scrollbar-color: #87906f #f6ead2;
+    scrollbar-color: #5d674b #f6ead2;
 }
 
 /* Menu äänitteet */
@@ -577,7 +577,7 @@ Yhteystiedot
 .yhteystiedot-esittely h3 {
     font-size: 16px;
     letter-spacing: 3px;
-    color: #b7926d;
+    color: #79553b;
 }
 
 
@@ -592,7 +592,7 @@ Yhteystiedot
     display: block;
     width: 75px;
     height: 2px;
-    background-color: #b7926d;
+    background-color: #79553b;
     margin: 0 auto 15px;
 }
 
@@ -725,7 +725,7 @@ Yhteystiedot
 /*lähetä painike*/
 .lomake-laatikko button {
     padding: 10px 18px;
-    background-color: #87906f;
+    background-color: #5d674b;
     color: #fffaf2;
     border: none;
     border-radius: 10px;
@@ -742,11 +742,11 @@ Yhteystiedot
 .lomake-laatikko .tyhjenna {
     background-color: #fffaf2;
     color: #512d25;
-    border: 1px solid #87906f;
+    border: 1px solid #5d674b;
 }
 
 .lomake-laatikko .tyhjenna:hover {
-    background-color: #87906f;
+    background-color: #5d674b;
     color: #fffaf2;
    
 }
@@ -799,7 +799,7 @@ arvostelut p {
     display: block;
     width: 75px;
     height: 2px;
-    background-color: #b7926d;
+    background-color: #79553b;
     margin: 0 auto 15px;
 }
 
@@ -854,7 +854,7 @@ Footer
  
 footer { 
     width: 100%; 
-    background-color: #87906f; 
+    background-color: #5d674b; 
     color: #f6ead2; 
     padding: 40px; 
     margin-top: 0; 
