@@ -763,6 +763,78 @@ Yhteystiedot
     text-align: right;
 }
 
+/* Arvostelut */
+
+.arvostelut {
+    background-color: #f6ead2;
+    border: none;
+    text-align: center;
+}
+
+.arvostelut h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+arvostelut p {
+    margin-bottom: 20px;
+}
+
+/* Arvostelut otsikon viiva */
+.arvostelut h2::after {
+    content: "";
+    display: block;
+    width: 75px;
+    height: 2px;
+    background-color: #b7926d;
+    margin: 0 auto 15px;
+}
+
+
+/*Taulukon ulkoasu*/
+
+
+/* taulukon ulkoreuna */
+.arvostelut-taulukko {
+    border: 1px solid #dcc0a4;
+    border-radius: 15px;
+    overflow-x: auto;
+}
+
+/* taulukon tausta ja leveys*/
+.arvostelut table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fffaf2;
+}
+
+/*taulukon solut*/
+.arvostelut th,
+.arvostelut td {
+    padding: 18px;
+    text-align: left;
+    border-bottom: 1px solid #dcc0a4;
+}
+
+/* otsikko sivit */
+.arvostelut thead {
+    background-color: #ead8bc;
+    color: #512d25;
+}
+
+/*joka toinen arvostelurivi on eri värinen*/
+.arvostelut tbody tr:nth-child(even) {
+    background-color: #f6ead2;
+}
+
+/*Viimeisen rivin alareuna ei näy*/
+.arvostelut tbody tr:last-child td {
+    border-bottom: none;
+}
+
+
+
+
 /*----------------------------------------------------------------
 Footer
 ----------------------------------------------------------------*/
