@@ -218,14 +218,27 @@ Etusivu
     margin-bottom: 12px;
     text-transform: uppercase;
 }
+
+/*Luodaan oma tekstiluokka tervetuloa*/
+.esittely-teksti .tervetuloa {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #fffaf2;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+
 /* Esittelyalueen teksti otsikon jälkeinen viiva*/
-.esittely-teksti h3::after{
+.esittely-teksti .tervetuloa::after {
     content: "";
     display: inline-block;
-    width: 55px;
+    width: 50px;
     height: 1.5px;
-    background-color: rgba(255, 250, 242, 0.75);
-    margin-left: 12px;
+    background-color: #fffaf2;
+    margin-left: 15px;
     vertical-align: middle;
 }
 
