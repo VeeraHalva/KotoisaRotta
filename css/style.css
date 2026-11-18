@@ -808,6 +808,8 @@ Yhteystiedot
     background-color: #f6ead2;
     border: none;
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .arvostelut h2 {
@@ -838,6 +840,8 @@ arvostelut p {
     border: 1px solid #dcc0a4;
     border-radius: 15px;
     overflow-x: auto;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 /* taulukon tausta ja leveys*/
