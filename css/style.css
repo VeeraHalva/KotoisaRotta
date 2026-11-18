@@ -922,12 +922,3 @@ img {
     margin: 0 auto;
 }
 
-/*karttakuva footerissa*/
-.footer-kartta img {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-width: 280px;
-    margin-top: 20px;
-    border: 1px; solid #dcc0a4;
-}
