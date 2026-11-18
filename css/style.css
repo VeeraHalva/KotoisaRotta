@@ -857,13 +857,8 @@ arvostelut p {
 
 /* otsikko sivit */
 .arvostelut thead {
-    background-color: #ead8bc;
-    color: #512d25;
-}
-
-/*joka toinen arvostelurivi on eri värinen*/
-.arvostelut tbody tr:nth-child(even) {
-    background-color: #f6ead2;
+    background-color: #5d674b;
+    color: #fffaf2;
 }
 
 /*Viimeisen rivin alareuna ei näy*/
@@ -907,9 +902,16 @@ footer li {
 }
 
 
-img {
+.instagram-rivi {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.instagram-rivi img {
     max-width: 100%;
     height: auto;
+    object-fit: contain;
 }
 
 /* Footerin osioiden asettelu gridillä */
