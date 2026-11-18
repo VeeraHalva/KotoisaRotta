@@ -882,13 +882,14 @@ footer {
     width: 100%; 
     background-color: #5d674b; 
     color: #f6ead2; 
-    padding: 40px; 
+    padding: 60px 5%; 
     margin-top: 0; 
  
 } 
  
 footer h3 { 
     color: #f6ead2; 
+    margin-bottom: 25px;
 }
 
 /* Footterissa olevat aukiolojat */
@@ -906,9 +907,29 @@ footer li {
 }
 
 
-
 img {
     max-width: 100%;
     height: auto;
 }
 
+/* Footerin osioiden asettelu gridillä */
+
+.footer-sisalto {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*karttakuva footerissa*/
+.footer-kartta img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 280px;
+    margin-top: 20px;
+    border: 1px; solid #dcc0a4;
+    
+
+}
