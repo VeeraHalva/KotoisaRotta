@@ -66,8 +66,8 @@ header {
 } 
  
 .logo-alue img { 
-    width: clamp(115px, 16vw, 150px);
-    max-width: 35vw; 
+    width: clamp(125px, 16vw, 150px);
+    max-width: 45vw; 
     height: auto; 
     object-fit: contain; 
  
