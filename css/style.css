@@ -928,3 +928,94 @@ footer li {
     margin: 0 auto;
 }
 
+/*----------------------------------------------------------------
+Responsiivisuus
+----------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+
+    /* Suosikit-otsikon Grid */
+    .suosikki-otsikko {
+        grid-template-columns: 1fr;
+    }
+
+    /* Menun äänitteet */
+    .menu-aanite {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    /* Footerin osioiden välit */
+    .footer-sisalto {
+        gap: 30px;
+    }
+}
+
+/* Puhelimet */
+
+@media (max-width: 480px) {
+
+    /* Navigaatio */
+    header nav {
+        width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    header nav a {
+        font-size: 15px;
+        padding: 8px 10px;
+    }
+
+    header nav a.active {
+        padding: 8px 12px;
+    }
+
+    /* Menu- ja Yhteystiedot-sivujen reunat */
+    .menu-sisalto,
+    .yhteystiedot-sisalto {
+        padding: 12px;
+    }
+
+    /* Etusivun esittely */
+    .esittely-teksti {
+        padding: 20px;
+    }
+
+    .esittely-teksti h2 {
+        font-size: 28px;
+    }
+
+    /* Suosikit */
+    .suosikit {
+        padding: 20px;
+    }
+
+    .suosikki-otsikko h2 {
+        font-size: 28px;
+    }
+
+    /* Menun ja yhteystietojen otsikot */
+    .menu-esittely h2,
+    .yhteystiedot-esittely h2 {
+        font-size: 32px;
+    }
+
+    /* Menu-äänitteet */
+    .menu-aanite {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .menu-aanite audio {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Arvostelutaulukko */
+    .arvostelut th,
+    .arvostelut td {
+        padding: 10px;
+    }
+}
